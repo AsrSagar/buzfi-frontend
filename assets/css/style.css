@@ -1,0 +1,916 @@
+/*
+***************************************************************
+***************************************************************
+
+Template Name  : NAME | One Page Multipurpose Template
+Author         : Hassan
+Author URI     : http: //hasanrashed.com
+File           : Style.css
+
+
+@NOTE: This file contains the stylesheet for this template.
+you may need to edit this file to change your contents style.
+This file contents are outlined below
+
+***************************************************************
+***************************************************************
+
+========== INDEX PAGE CSS ==========
+------------------------------------
+
+*** -  1. Template Default Css
+*** -  2. Template Background Css
+*** -  3. Template Position Css 
+*** -  4. Template Hover Css   
+*** -  5. Template Buttons Css
+*** -  6. Header Area Css
+*** -  7. Welcome Area Css
+*** -  8. Service Area Css
+*** -  9. Team Area Css
+*** - 10. Video Area Css 
+*** - 11. Work Area Css
+*** - 12. Testimonial Area Css
+*** - 13. Pricing Area Css
+*** - 14. Project Complete Area Css
+*** - 15. Blog Area Css
+*** - 16. Map Area Css
+*** - 17. Brand Area Css
+*** - 18. Footer Area Css
+*** - 19. Template Hover Css
+*** - 20. Template Transition Css
+
+
+*/
+
+/****
+*   GOOGLE FONTS
+*   =============================
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700,900|Roboto:400,500,700,900');
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #222;
+    line-height: 1.5em;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    outline: 0 solid;
+}
+
+
+/*
+=========----------------------------------=========
+            1.Template Default Css     
+=========----------------------------------=========
+*/
+section{
+    padding: 15px 0;
+}
+.section-padding {
+    padding: 100px 0;
+}
+
+.magin-btm {
+    margin-bottom: 0;
+}
+
+.section-title {
+    margin-bottom: 65px;
+}
+
+.section-title h2 {
+    margin-bottom: 0;
+}
+
+.section-title span {
+    color: #9FB80F;
+}
+
+.flip-clock-dot.top {
+    top: 185px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    visibility: hidden;
+}
+
+
+/*
+=========----------------------------------=========
+            2.Template Background Css     
+=========----------------------------------=========
+*/
+
+.welcome-bg {
+    background: url(../img/03.jpg);
+}
+
+.welcome-bg-02 {
+    background: url(../img/02.jpg);
+}
+
+.welcome-txt {
+    background-size: cover;
+    background-position: center;
+}
+
+#learn-where {
+    background: url(../img/04.jpg);
+}
+
+#learn-where {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*
+=========----------------------------------=========
+            3.Template Position Css     
+=========----------------------------------=========
+*/
+
+.welcome-txt {
+    position: relative;
+    z-index: 99;
+}
+
+.welcome-txt:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    content: "";
+    opacity: .6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    z-index: -1;
+}
+
+
+/*
+=========----------------------------------=========
+            4.Template Hover Css     
+=========----------------------------------=========
+*/
+
+/*
+=========----------------------------------=========
+            5.Template Buttons Css     
+=========----------------------------------=========
+*/
+
+/*
+=========----------------------------------=========
+            6.Header Area Css     
+=========----------------------------------=========
+*/
+
+.top-menu {
+    padding: 10px 0;
+}
+
+.menu-logo {
+    width: 100%;
+    background: #0066D6;
+    overflow: hidden;
+}
+
+.logo-area {
+    width: 15%;
+    float: left;
+    background: #005FC8;
+}
+
+.logo-area img {
+    padding: 47px 30px;
+}
+
+.top-menu small {
+    display: block;
+    color: #C4E8FF;
+}
+
+.top-menu a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 15px;
+    transition: .5s;
+}
+
+.top-menu a:hover {
+    color: #26A6FB;
+}
+
+button.voice {}
+
+.top-menu p {margin-bottom: 0;}
+
+.top-menu p small {
+    margin-top: 3px;
+}
+
+/*
+=========----------------------------------=========
+            7.Search    
+=========----------------------------------=========
+*/
+
+
+.main-search input {
+    width: 75%;
+    height: 50px;
+    float: left;
+    padding-left: 20px;
+    border: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.main-search button {
+    float: left;
+}
+
+.main-search button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    background: #fff;
+}
+
+.main-search i.fa-search {
+    font-size: 20px;
+    background:#0066D6;
+    padding:10px;
+    color:#fff;
+    border-radius:2px
+}
+
+button.voice {
+    font-size: 24px;
+    border-radius: 3px;
+    margin-left: 10px;
+    color: #0066D6;
+}
+
+
+
+/*
+=========----------------------------------=========
+            7.Right Side nav Area Css     
+=========----------------------------------=========
+*/
+.navbar-tool {
+    display: flex;
+    float: left;
+    margin-top: 2px;
+    padding: 0 7px;
+}
+
+.navbar-ttol-icon {
+    margin-top: 14px;
+}
+
+.navbar-ttol-icon svg {
+    margin-right: 5px;
+}
+
+.buz-bdr{
+    border-left: 2px solid #0052AC;
+    border-right: 2px solid #0052AC;
+}
+
+
+
+/*
+=========----------------------------------=========
+            10.Header Bottom Menu Css     
+=========----------------------------------=========
+*/
+a.nav-link {
+    font-size: 12px;
+    color: #fff;
+}
+
+.left-menu {
+    float: left;
+}
+
+.right-menu {
+    float: right;
+}
+
+.bottom-menu {
+    background: #0066D6;
+}
+
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+    background: transparent !important;
+}
+/*
+=========--------------------------------------------------=========
+            10.Featured Category Banner Area Css     
+=========--------------------------------------------------=========
+*/
+.single-cat-head p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.single-cat-head i.fa {
+    font-size: 30px;
+    margin-right: 10px;
+    color: #0071EE;
+}
+
+.see-all p {
+    text-align: right;
+}
+
+.see-all small {
+    display: block;
+}
+
+.see-all a {
+    text-decoration: none;
+    color: #0066D6;
+}
+
+
+.multy-cat-body {
+    width: 100%;
+    overflow: hidden;
+}
+
+.single-banner {
+    text-decoration: none;
+    float: left;
+    width: 47%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.single-banner a small {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    background: #fff;
+    padding: 0px 5px;
+    border-radius: 2px;
+    color: #333;
+    font-size: 10px;
+}
+
+
+.single-banner:nth-child(1), .single-banner:nth-child(3) {
+    margin-right: 6px;
+}
+
+.single-banner:nth-child(2), .single-banner:nth-child(4) {
+    margin-left: 6px;
+    float: right;
+}
+
+.multy-single-cat {
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.25);
+    padding: 0 12px;
+    border-radius: 10px;
+}
+
+.single-cat-head {
+    margin-bottom: 12px;
+    padding-top: 7px;
+}
+
+.single-fe-baner {
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.25);
+    padding: 12px;
+    border-radius: 10px;
+}
+
+/*
+=========---------------------------------------------=========
+  **************** 10.Flash Deal Area Css  ****************   
+=========---------------------------------------------=========
+*/
+
+
+.flash-banner {
+    background: url(../img/flashbg.png);
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+.flash-icon ul {
+    margin: 0;
+    padding: 0;
+}
+
+.flash-banner ul li {
+    list-style: none;
+    display: inline-block;
+    background: #0071EE;
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px 14px;
+}
+
+.flash-banner ul {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.flash-banner ul li p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.flash-banner ul li p {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.flash-icon {
+    text-align: right;
+}
+
+.flash-icon i {
+    background: #0071EE;
+    color: #fff;
+    padding: 10px 8px;
+    font-size: 20px;
+    border-radius: 0 20px 0 10px;
+}
+
+.flash-img img {
+    width: 60%;
+}
+
+.flash-img {
+    text-align: center;
+    margin: 37px 0;
+}
+
+.flash-btn {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.flash-btn a {
+    padding: 10px 30px;
+    background: #0071EE;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+.single-product {
+    background: #F5F5F5;
+    border: 1px solid #D8D8D8;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 7px;
+}
+
+
+.product0deal-icon i {
+    background: #0071EE;
+    color: #fff;
+    padding: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.pro-img-icon {
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.wish-compare-icon {
+    margin: 5px;
+    transition: .5s;
+    position: absolute;
+    right: -30px;
+    top: 0;
+    opacity: 0;
+}
+
+
+.wish-compare-icon i {
+    display: block;
+    overflow: hidden;
+    background: #F5F5F5;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 5px;
+    color: #919199;
+    transition: .5s;
+}
+
+.wish-compare-icon a {
+    text-decoration: none;
+}
+.wish-compare-icon i:hover{
+    color: #0071EE;
+}
+
+.single-product:hover .wish-compare-icon {
+    margin-right: 5px;
+    opacity:1;
+     right: 0px;
+}
+
+.product-img {
+    width: 100%;
+    height: 100%;
+}
+
+.product-content a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.product-content {
+    padding: 15px;
+}
+
+.review ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    float: left;
+}
+
+.review ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.review ul li i {
+    color: #0066D6;
+}
+
+.product-content p {
+    margin: 0;
+    color: #0071EE;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.product-content small {
+    color: #919199;
+    font-size: 10px;
+}
+
+.review p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+    padding: 0;
+}
+
+
+
+/*
+=========----------------------------------=========
+            10.Icon Category Area Css     
+=========----------------------------------=========
+*/
+
+.ico-single-cat {
+    text-align: center;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.25);
+    
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f5f5f5+0,ffffff+49,f5f5f5+100 */
+background: radial-gradient(ellipse at center,  #f5f5f5 0%,#ffffff 49%,#f5f5f5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 10px;
+}
+
+.all-top-icon-category a {
+    text-decoration: none;
+    color: #333;
+}
+
+.ico-single-cat p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.ico-single-cat i {
+    font-size: 30px;
+    background: ;
+}
+
+
+/*
+=========----------------------------------=========
+            10.Footer Area Css     
+=========----------------------------------=========
+*/
+
+.footer-upper-side {
+    background-color: #0071EE;
+}
+
+.footer-menu h3 {
+    font-size: 20px;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-menu ul li {
+    list-style: none;
+}
+.footer-menu a {
+    text-decoration: none;
+    color: #d7d7d7;
+    transition: .5s;
+}
+
+.footer-menu img {
+    width: 50%;
+    margin-bottom: 5px;
+}
+
+.footer-menu ul li a:hover {
+    color: #fff;
+    margin-left: 10px;
+}
+
+
+.social-media {
+    text-align: center;
+}
+
+.social-media ul {
+    margin: 0;
+    padding: 20px 0;
+}
+
+.social-media ul li {
+    list-style: none;
+    display: inline;
+    margin: 0px 5px;
+}
+
+
+
+.copy-right {
+    background: #2B2B2B;
+    text-align: center;
+    padding: 35px;
+}
+
+.copy-right ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.copy-right ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: .5s;
+}
+
+.social-media ul li a i.fa {
+    font-size: 17px;
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    transition: .5s
+}
+
+.fa-facebook{
+    color:#316FF6;
+    background: #fff;
+}
+.fa-facebook:hover{
+    color:#fff;
+    background: #316FF6;
+}
+.fa-linkedin{
+    color:#0077b5;
+    background: #fff;
+}
+.fa-linkedin:hover{
+    color:#fff;
+    background: #0077b5;
+}
+.fa-instagram{
+    background: #fff;
+    color:#e6683c;
+
+}
+
+.fa-instagram:hover{
+    background: #e6683c;
+    color:#fff;
+
+}
+
+
+.fa-pinterest-p{
+    color:#E60023;
+    background: #fff;
+}
+.fa-pinterest-p:hover{
+    color:#fff;
+    background: #E60023;
+}
+
+.fa-youtube{
+    color:#CD201F;
+    background: #fff;
+}
+.fa-youtube:hover{
+    color:#fff;
+    background: #CD201F;
+}
+.fa-whatsapp{
+    color:#075E54;
+    background: #fff;
+}
+.fa-whatsapp:hover{
+    color:#fff;
+    background: #075E54;
+}
+.fa-skype{
+    color:#00aff0;
+    background: #fff;
+}
+.fa-skype:hover{
+    color:#fff;
+    background: #00aff0;
+}
+.fa-snapchat-ghost{
+    color:#333;
+    background: #fff;
+}
+.fa-snapchat-ghost:hover{
+    color:#333;
+    background: #FFFC00;
+}
+.fa-telegram{
+    color:#0088cc;
+    background: #fff;
+}
+.fa-telegram:hover{
+    color:#fff;
+    background: #0088cc;
+}
+.fa-tumblr{
+    color:#35465c;
+    background: #fff;
+}
+.fa-tumblr:hover{
+    color:#fff;
+    background: #35465c;
+}
+.fa-vimeo{
+    color:#1AB7EA;
+    background: #fff;
+}
+.fa-vimeo:hover{
+    color:#fff;
+    background: #1AB7EA;
+}
+.fa-weixin{
+    color:#09B83E;
+    background: #fff;
+}
+.fa-weixin:hover{
+    color:#fff;
+    background: #09B83E;
+}
+.fa-reddit-alien{
+    color:#FF4500;
+    background: #fff;
+}
+.fa-reddit-alien:hover{
+    color:#fff;
+    background: #FF4500;
+}
+.fa-quora{
+    color:#A82400;
+    background: #fff;
+}
+.fa-quora:hover{
+    color:#fff;
+    background: #A82400;
+}
+.payment {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.copy-right p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.copy-right p span {
+    color: #0071EE;
+}
+
+
+
+/*
+=========----------------------------------=========
+            10.Cources Area Css     
+=========----------------------------------=========
+*/
+
+/*
+=========----------------------------------=========
+            10.Footer Area Css     
+=========----------------------------------=========
+*/
+
+
+/*
+=========----------------------------------=========
+            10.Footer Area Css     
+=========----------------------------------=========
+*/
+
+/*
+=========----------------------------------=========
+            Scroll To Top Area Css     
+=========----------------------------------=========
+*/
+
+
+/*
+=========----------------------------------=========
+            Pre Loader Area Css     
+=========----------------------------------=========
+*/
+
+
+/*
+ -------------------=======================----------------
+|                       BLOG PAGE CSS                      |
+ -------------------=======================----------------
+*/

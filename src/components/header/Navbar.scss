@@ -1,0 +1,41 @@
+.top-menu {
+    padding: 10px 0;
+}
+
+.menu-logo {
+    width: 100%;
+    background: #0066D6;
+    overflow: hidden;
+}
+
+.logo-area {
+    width: 15%;
+    float: left;
+    background: #005FC8;
+}
+
+.logo-area img {
+    padding: 47px 30px;
+}
+
+.top-menu small {
+    display: block;
+    color: #C4E8FF;
+}
+
+.top-menu a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 15px;
+    transition: .5s;
+}
+
+.top-menu a:hover {
+    color: #26A6FB;
+}
+
+.top-menu p {margin-bottom: 0;}
+
+.top-menu p small {
+    margin-top: 3px;
+}

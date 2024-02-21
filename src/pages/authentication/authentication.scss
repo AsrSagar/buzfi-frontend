@@ -1,0 +1,81 @@
+.login-section {
+	background: url(../../assets/img/loginbg.png);
+	background-size: cover;
+	width: 100%;
+}
+.login-card-section {
+	background-color: #DDF1FF;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 0 0 50px 0;
+}
+.loginHeader {
+	img {
+		width: 100%;
+		border-radius: 15px;
+		padding: 10px;
+	}
+}
+.formSection {
+	margin: 0 auto;
+	display: block;
+
+    .formHeadingText{
+        margin: 30px 0;
+        h3{
+            font-size: 40px;
+            font-weight: 700;
+            text-transform: uppercase;
+            line-height: 40px;
+        }
+        p {
+           color: #7D7D7D;
+           font-size: 14px;
+           line-height: 21px;
+        }
+    }
+    
+}
+.registerForm{
+    width: 600px;
+}
+.form-group {
+	margin-bottom: 25px;
+}
+.registerBtn{
+    margin: 0 auto;
+    text-align: center;
+    display: block
+}
+.forgetPass {
+	float: right;
+	text-decoration: none;
+	color: #EB6B46;
+	width: 100%;
+	text-align: right;
+	margin: 10px 0;
+}
+.SocialLogin {
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	button {
+		padding: 10px;
+		text-align: center;
+		width: 100%;
+		img {
+			margin-top: -4px;
+		}
+	}
+}
+.haveAccount {
+	text-align: center;
+	margin-top: 10px;
+	color: #A8A8BC;
+	a {
+		text-decoration: none;
+		color: #005FC8;
+		font-weight: 500;
+	}
+}

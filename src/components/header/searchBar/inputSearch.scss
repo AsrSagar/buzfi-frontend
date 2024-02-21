@@ -1,0 +1,35 @@
+.main-search input {
+    width: 75%;
+    height: 50px;
+    float: left;
+    padding-left: 20px;
+    border: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.main-search button {
+    float: left;
+}
+
+.main-search button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    background: #fff;
+}
+
+.main-search .fa-search {
+    font-size: 20px;
+    background:#0066D6;
+    padding:10px;
+    color:#fff;
+    border-radius:2px
+}
+
+button.voice {
+    font-size: 24px;
+    border-radius: 3px;
+    margin-left: 10px;
+    color: #0066D6;
+}

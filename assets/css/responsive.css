@@ -1,0 +1,56 @@
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) {}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767px) {}
+
+// Extra small devices (portrait phones, less than 576px)
+@media only screen and (max-width: 575px) {
+    
+}
+
+@media only screen and (max-width: 575px){
+    
+    .logo-area {
+        width: 100%;
+        text-align: center;
+    }
+    .top-menu p {
+        text-align: center;
+    }
+    .main-search input{
+        width: 70%;
+    }
+    
+    
+    .ico-single-cat {
+        height: 140px;
+    }
+    .ico-single-cat p{
+        font-size: 12px;
+    }
+    .ico-single-cat i{
+        margin-top: 17px;
+        margin-bottom: 10px;
+    }
+    
+    
+    
+    
+    
+    .multy-single-cat {
+        margin: 15px 0;
+    }
+    .multy-single-cat {
+        margin: 15px 0;
+    }
+    .social-media ul li a img {
+        margin-bottom: 10px;
+    }
+}
