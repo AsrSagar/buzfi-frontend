@@ -1,0 +1,39 @@
+.sidebar{
+    border-right: 1px solid #ddd;
+}
+.sidebar ul{
+    margin-top: 20px;
+    li{
+        a{
+            font-size: 16px;
+            font-weight: 400;
+            padding: 15px 0 15px 30px;
+            &:hover{
+              background: #F8F8F8;
+            }
+            svg{
+                margin-right: 10px;
+                margin-top: -2px;
+            }
+            .dropdown {
+                margin-top: 15px;
+                line-height: 10px;
+            }
+            i{
+                float: right;
+                margin-right: 15px;
+                margin-top: 4px;
+            }
+            .dropdown{
+                display: none;
+            }
+            .activeClass{
+                display: block;
+            }
+        }
+        .menuactive{
+            background-color: #F8F8F8;
+            color: #000;
+        }
+    }
+}

@@ -38,7 +38,7 @@ const FeaturedBanner = () => {
                                     <div className="single-cat-head">
                                         <div className="navbar-tool">
                                             <div className="navbar-ttol-icon">
-                                                <FaStar />
+                                                <i class="fa fa-star" aria-hidden="true"></i>
                                             </div>
                                             <div className="navbar-tool-text">
                                                 <small>Top Category</small>
@@ -87,7 +87,7 @@ const FeaturedBanner = () => {
                                     <div className="single-cat-head">
                                         <div className="navbar-tool">
                                             <div className="navbar-ttol-icon">
-                                                <FaStar />
+                                                <i class="fa fa-star" aria-hidden="true"></i>
                                             </div>
                                             <div className="navbar-tool-text">
                                                 <small>Top Category</small>

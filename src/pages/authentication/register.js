@@ -1,6 +1,8 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import './authentication.scss';
+import Navbar from '../../components/header/Navbar';
+import FooterArea from '../../components/footer/footerArea';
 
 import lohinbanner from '../../assets/img/lohinbanner.png';
 import IconGmail from '../../assets/img/gmail.svg';
@@ -11,37 +13,39 @@ import { useAuth } from '../../contexts/AuthContext';
 
 const Register = () => {
 
-    const [username, setUsername] = useState("");
-    const [email, setUseremail] = useState("");
-    const [password, setUserpassword] = useState("");
-    const [confirmPassword, setconfirmPassword] = useState("");
+    // const [username, setUsername] = useState("");
+    // const [email, setUseremail] = useState("");
+    // const [password, setUserpassword] = useState("");
+    // const [confirmPassword, setconfirmPassword] = useState("");
 
-    const [error, setError] = useState();
-    const [loading, setLoading] = useState();
+    // const [error, setError] = useState();
+    // const [loading, setLoading] = useState();
 
-    const {signup} = useAuth();
-    const history = useNavigate();
+    // const {signup} = useAuth();
+    // const history = useNavigate();
 
-    async function handleSubmit(e){
-        e.preventDefault();
-        // do validation
-        if(password !== confirmPassword){
-            return setError("Password don't match!")
-        }
+    // async function handleSubmit(e){
+    //     e.preventDefault();
+    //     // do validation
+    //     if(password !== confirmPassword){
+    //         return setError("Password don't match!")
+    //     }
 
-        try {
-            setError("");
-            setLoading(true);
-            await signup(email, password, username);
-            history.push("/");
-        } catch(err) {
-            console.log(err);
-            setLoading(false);
-            setError("Failed to create an account!");
-        }
-    }
+    //     try {
+    //         setError("");
+    //         setLoading(true);
+    //         await signup(email, password, username);
+    //         history.push("/");
+    //     } catch(err) {
+    //         console.log(err);
+    //         setLoading(false);
+    //         setError("Failed to create an account!");
+    //     }
+    // }
 
     return(
+        <>
+        <Navbar />
         <div className="login-section">
             <div className="container">
                 <div className="row">
@@ -54,7 +58,7 @@ const Register = () => {
                                 <h3>Registration</h3>
                                 <p>Registation with fitnes & get healthy</p>
                             </div>
-                            <form onSubmit={handleSubmit}>
+                            <form>
                                 <div className='row'>
                                     <div className='col-md-6'>
                                         <div className="form-group">
@@ -64,8 +68,8 @@ const Register = () => {
                                             aria-describedby="emailHelp" 
                                             placeholder="Name" 
                                             required
-                                            value={username} 
-                                            onChange={(e) => setUsername(e.target.value)}
+                                            // value={username} 
+                                            // onChange={(e) => setUsername(e.target.value)}
                                             />
                                         </div>
                                     </div>
@@ -77,8 +81,8 @@ const Register = () => {
                                             aria-describedby="emailHelp" 
                                             placeholder="Enter email" 
                                             required
-                                            value={email} 
-                                            onChange={(e) => setUseremail(e.target.value)}
+                                            // value={email} 
+                                            // onChange={(e) => setUseremail(e.target.value)}
                                             />
                                         </div>
                                     </div>
@@ -89,8 +93,8 @@ const Register = () => {
                                             className="form-control rounded-0" 
                                             placeholder="Password" 
                                             required
-                                            value={password} 
-                                            onChange={(e) => setUserpassword(e.target.value)}
+                                            // value={password} 
+                                            // onChange={(e) => setUserpassword(e.target.value)}
                                             />
                                         </div>
                                     </div>
@@ -101,15 +105,15 @@ const Register = () => {
                                             className="form-control rounded-0" 
                                             placeholder="Confirm Password" 
                                             required
-                                            value={confirmPassword} 
-                                            onChange={(e) => setconfirmPassword(e.target.value)} 
+                                            // value={confirmPassword} 
+                                            // onChange={(e) => setconfirmPassword(e.target.value)} 
                                             />
                                         </div>
                                     </div>
                                     <div className='col-md-12'>
 
                                         <button type="submit" class="btn btn-primary w-100 rounded-0 registerBtn">Register</button>
-                                        {error && <p className='error'>{error}</p>}
+                                        {/* {error && <p className='error'>{error}</p>} */}
                                         <div className='SocialLogin d-flex mt-3'>
                                             <button className='btn btn-primary bg-white text-dark rounded-0 border-0 m-1'><img src={IconGmail} alt=''/> Google</button>
                                             <button className='btn btn-primary bg-white text-dark rounded-0 border-0 m-1'><img src={IconFacebook} alt=''/> Facebook</button>
@@ -124,6 +128,8 @@ const Register = () => {
                 </div>
             </div>
         </div>
+        <FooterArea />
+        </>
     );
 
 }

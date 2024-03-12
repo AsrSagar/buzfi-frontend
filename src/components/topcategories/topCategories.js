@@ -15,6 +15,8 @@ import homegarden from '../../assets/img/homegarden.png';
 import brushsolid from '../../assets/img/brush-solid1.png';
 import homeapplinence from '../../assets/img/homeapplinence.png';
 import bag from '../../assets/img/bag.png';
+import HeaderArea from '../../backend/headerArea/headerArea';
+import FooterArea from '../footer/footerArea';
 
 const TopCategories = () => {
 
@@ -98,6 +100,7 @@ const TopCategories = () => {
     ];
 
     return(
+        <>
         <div id="top-icon-category">
             <div class="container-fluid">
                 <div class="all-top-icon-category">
@@ -134,6 +137,7 @@ const TopCategories = () => {
                 </div>
             </div>
         </div>
+        </>
     )
 };
 export default TopCategories;

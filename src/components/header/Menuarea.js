@@ -15,7 +15,7 @@ const MenuArea = () => {
                 <div className="col-12 col-sm-6 col-md-3 col-lg-2">
                   <p>
                     <small>Become a</small>
-                    <Link to="/buzfi/sellerpanel">
+                    <Link to="/buzfi/admin">
                         <FaHandPointRight  /> Seller 
                     </Link>
                     <Link href="#">

@@ -1,8 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { 
-    FaBolt, 
-} from "react-icons/fa";
 import friday from '../../assets/img/friday.png';
 import product01 from '../../assets/img/product01.jpg';
 import product02 from '../../assets/img/product02.jpg';
@@ -19,7 +16,7 @@ const FlashDeal = () => {
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                         <div class="flash-banner">
                         <div class="flash-icon">
-                            <FaBolt />
+                            <i class="fa fa-bolt" aria-hidden="true"></i>
                         </div>
                         <ul>
                             <li>
@@ -52,7 +49,7 @@ const FlashDeal = () => {
                             <div class="single-product">
                                 <div class="pro-img-icon">
                                 <div class="product0deal-icon">
-                                    <FaBolt />
+                                    <i class="fa fa-bolt" aria-hidden="true"></i>
                                 </div>
                                 <div class="wish-compare-icon">
                                     <Link href="#">
@@ -67,7 +64,7 @@ const FlashDeal = () => {
                                 </div>
                                 </div>
                                 <div class="product-content">
-                                    <Link href="#">Apple Watch Nike SE (1st Gen) .....</Link>
+                                    <Link to="/productsdetails">Apple Watch Nike SE (1st Gen) .....</Link>
                                 <p>$ 775.00 <small>
                                     <del>$875.00</del>
                                     </small>
@@ -97,7 +94,7 @@ const FlashDeal = () => {
                             <div class="single-product">
                                 <div class="pro-img-icon">
                                     <div class="product0deal-icon">
-                                        <FaBolt />
+                                        <i class="fa fa-bolt" aria-hidden="true"></i>
                                     </div>
                                     <div class="wish-compare-icon">
                                         <Link href="#">
@@ -142,7 +139,7 @@ const FlashDeal = () => {
                             <div class="single-product">
                                 <div class="pro-img-icon">
                                     <div class="product0deal-icon">
-                                        <FaBolt />
+                                        <i class="fa fa-bolt" aria-hidden="true"></i>
                                     </div>
                                     <div class="wish-compare-icon">
                                         <Link href="#">
@@ -184,7 +181,7 @@ const FlashDeal = () => {
                             <div class="single-product">
                                 <div class="pro-img-icon">
                                     <div class="product0deal-icon">
-                                        <FaBolt />
+                                        <i class="fa fa-bolt" aria-hidden="true"></i>
                                     </div>
                                     <div class="wish-compare-icon">
                                         <Link href="#">

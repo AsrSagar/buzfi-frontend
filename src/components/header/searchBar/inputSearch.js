@@ -8,7 +8,7 @@ const InputSearch = () => {
             <div class="main-search">
                 <form action="action">
                     <input type="text" placeholder="Search in Buzfi ..." />
-                    <button className='fa-search'>
+                    <button>
                         <FaSearch />
                     </button>
                 </form>

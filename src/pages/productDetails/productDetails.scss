@@ -1,0 +1,314 @@
+.product-images img {
+    margin-bottom: 23px;
+}
+
+.product-title h4 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.rating span {
+    background: #0066D6;
+    color: #fff;
+    padding: 1px 5px;
+    border-radius: 3px;
+    margin-right: 6px;
+}
+
+.price strike {
+    font-size: 14px;
+    color: #737382;
+}
+
+.price strong {
+    font-weight: 600;
+    color: #0071EE;
+    font-size: 20px;
+}
+
+.short-detail {
+    font-size: 14px;
+    color: #737382;
+    margin-top: 20px;
+}
+
+.color ul {
+    margin: 30px 0;
+    padding: 0;
+}
+
+.color ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.color li a {
+    text-decoration: none;
+    color: #171718;
+}
+
+.color img {
+    width: 40px;
+}
+
+.product-count ul {
+    margin: 0;
+    padding: 0;
+}
+
+.product-count ul li {
+    display: inline-block;
+}
+
+.product-count ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline;
+    margin-right: 10px;
+}
+
+.product-count ul li {
+    display: inline-block;
+    border: 1px solid #EFF0F3;
+    height: 40px;
+    line-height: 40px;
+}
+
+.product-count input {
+    border: none;
+    height: 35px;
+    padding: 0;
+    width: 60px;
+}
+
+.pro-qty {
+    width: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.product-count button {
+    width: 140px;
+    height: 40px;
+    line-height: 20px;
+    margin-top: -3px;
+    border-radius: 3px;
+}
+
+.wishlist ul li {
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.wishlist li a {
+    text-decoration: none;
+    color: #171718;
+}
+
+.wishlist li a i {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #EFF0F3;
+    text-align: center;
+    color: #171718;
+}
+
+
+.detail-note i.fa {
+    margin-right: 5px;
+}
+.detail-note .color ul {
+    margin: 0;
+    padding: 0;
+}
+
+.detail-note .color ul li {
+    margin-right: 0;
+    margin-bottom: 3px;
+}
+
+.detail-note {
+    background: #E8F3FF;
+    padding: 30px;
+    font-size: 12px;
+    position: relative;
+}
+
+.detail-note ul li {
+    display: inline-block;
+}
+
+.not-cart-btn a {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    background: #0066D6;
+    margin-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.not-cart-btn {
+    margin-top: 15px;
+}
+
+.detail-note:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 100%;
+    height: 5px;
+    background: #0066D6;
+}
+
+.produt-sku span {
+    color: #737382;
+}
+
+.produt-sku p {
+    color: #171718;
+    margin: 0;
+    font-size: 12px;
+}
+
+.produt-sku {
+    margin-top: 20px;
+}
+
+ul#pills-tab {
+    border: 1px solid #17171830;
+    padding: 5px;
+    overflow: hidden;
+    width: 45%;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    border-radius: 0;
+    padding: 8px 20px;
+}
+
+.rev-user-img {
+    width: 75px;
+}
+.rev-user-img img {
+    width: 100%;
+}
+
+.name-stars ul li {
+    display: inline;
+    color: #F5980C;
+}
+
+.name-stars ul {
+    margin-bottom: 20px;
+}
+
+.name-stars h5 {
+    margin-top: 11px;
+}
+
+
+.name-stars h5 {
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+.name-stars span {
+    float: right;
+    font-size: 14px;
+    font-weight: 300;
+    color: #737382;
+}
+
+.view-more-btn a {
+    text-decoration: none;
+    color: #fff;
+    background: #0066D6;
+    padding: 10px 150px;
+    overflow: hidden;
+}
+
+.view-more-btn {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.avg-rating h5, .specification-tbl h5 {
+    margin-top: 30px;
+}
+
+.avg-rating i.fa {
+    color: #F5980C;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.avg-rating ul li {
+    display: inline;
+}
+
+.avg-rating h2 {
+    font-size: 80px;
+}
+
+.rating-bar {
+    margin-top: 90px;
+}
+
+.avg-rating p {
+    font-size: 12px;
+}
+.product-rating ul {
+    margin: 0;
+    padding: 0;
+}
+
+.rating-bar li {
+    display: inline-block;
+}
+
+.product-rating ul li.progress {
+    width: 80%;
+}
+
+.progress {
+    width: 200px;
+    height: 8px;
+    line-height: 8px;
+}
+
+.progress-bar {
+    background: #171718;
+    height: 2px;
+    margin-top: 3px;
+}
+
+.rating-bar i.fa {
+    margin-right: 10px;
+    color:#F5980C
+}
+.single-review tr, th, td {
+    border: 0;
+}
+
+.rev-txt p {
+    color: #737382;
+    margin-top:10px
+}
+
+table.table.table-bordered {
+    border-bottom: 1px solid #73738221;
+}
+
+.user-revicew-content {
+    margin-top: 30px;
+}

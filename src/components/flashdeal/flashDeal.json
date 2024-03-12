@@ -1,0 +1,7 @@
+ProductDetails = {
+    "name": "John Doe",
+    "age": 30,
+    "city": "New York",
+    "is_student": False,
+    "grades": [95, 88, 75]
+}

@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Navbar from '../../components/header/Navbar';
+import FooterArea from '../../components/footer/footerArea';
 import './authentication.scss';
 import lohinbanner from '../../assets/img/lohinbanner.png';
 import IconGmail from '../../assets/img/gmail.svg';
@@ -16,6 +18,8 @@ const Login = () => {
     }
 
     return(
+        <>
+        <Navbar />
         <div className="login-section">
             <div className="container">
                 <div class="row">
@@ -35,7 +39,7 @@ const Login = () => {
                                 <div class="form-group">
                                     <input type="password" class="form-control rounded-0" placeholder="Password" />
                                 </div>
-                                <button type="submit" class="btn btn-primary w-100 rounded-0">Log in</button>
+                                <Link class="btn btn-primary w-100 rounded-0" to='/buzfi/admin'>Log in</Link>
                                 <Link className='forgetPass'>Forget Password !</Link>
                                 <div className='SocialLogin d-flex'>
                                     <button className='btn btn-primary bg-white text-dark rounded-0 border-0 m-1'><img src={IconGmail} alt=''/> Google</button>
@@ -49,6 +53,8 @@ const Login = () => {
                 </div>
             </div>
         </div>
+        <FooterArea />
+        </>
     );
 
 }
